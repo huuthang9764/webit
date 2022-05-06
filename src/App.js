@@ -1,11 +1,12 @@
+import footer from "./page/footer";
 import React from "react";
-
 import "./App.css";
-import client_user from "./containers/client/client_user";
+
 function App() {
   return (
     <div className="App">
-      <client_user />
+      2
+      <footer />
     </div>
   );
 }

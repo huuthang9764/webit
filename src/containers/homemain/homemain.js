@@ -1,7 +1,7 @@
 import React from "react";
-import Menu from "../../components/Menu/Menu";
-import Header from "../../components/Header/header";
-export default function client_user() {
+import { Menu } from "components";
+import { Header } from "components";
+export default function homemain() {
   const MENUS = [
     { text: "BÀN PHÍM", url: "/trangchu" },
     { text: "CHUỘT", url: "/gioithieu" },
@@ -9,9 +9,9 @@ export default function client_user() {
     { text: "LOA", url: "http://blog.thebaodev.me" },
   ];
   return (
-    <>
+    <div>
       <Header />
       <Menu menus={MENUS} />
-    </>
+    </div>
   );
 }
